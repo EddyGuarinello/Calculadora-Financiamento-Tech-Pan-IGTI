@@ -1,4 +1,4 @@
-# Calculadora-Tech-Pan-IGTI
+# Calculadora-Financiamento-Tech-Pan-IGTI
 Projeto realizado durante uma atividade no Bootcamp Tech Pan | IGTI
 
 
