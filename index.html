@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="pageWrap">
+      <div id="contentWrap">
+        <section class="section1">
+          <h2>Simulação de Financiamento</h2>
+          <div>
+            <p>Valor:</p>
+            <input id="valor" type="text" value="200000.00" />
+          </div>
+          <div>
+            <p>Prazo (anos):</p>
+            <input id="prazoAnos" type="text" value="20" />
+          </div>
+          <div>
+            <p>Juros ao ano:</p>
+            <input id="jurosAno" type="text" value="0.08" />
+          </div>
+
+          <button id="calcularButton">Simular</button>
+        </section>
+
+        <div class="resultWrap">
+          <section class="section2">
+            <h2>Resultado</h2>
+            <div>
+              <p>Prazo (meses):</p>
+              <input id="prazoMeses" readonly type="text" />
+            </div>
+            <div>
+              <p>Juros ao mês:</p>
+              <input id="jurosMeses" readonly type="text" />
+            </div>
+            <div>
+              <p>Juros acumulados:</p>
+              <input id="jurosAcumulados" readonly type="text" />
+            </div>
+          </section>
+          <section class="section3">
+            <table>
+              <thead>
+                <tr>
+                  <td><h3>Prestação</h3></td>
+                  <td class="tds"><h3>Amortização</h3></td>
+                  <td class="tds"><h3>Juros</h3></td>
+                  <td class="tds"><h3>Total</h3></td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td class="tds amortArray"></td>
+                  <td class="tds jurosArray"></td>
+                  <td class="tds totalArray"></td>
+                </tr>
+
+                <tr>
+                  <td>2</td>
+                  <td class="tds amortArray"></td>
+                  <td class="tds jurosArray"></td>
+                  <td class="tds totalArray"></td>
+                </tr>
+
+                <tr>
+                  <td>3</td>
+                  <td class="tds amortArray"></td>
+                  <td class="tds jurosArray"></td>
+                  <td class="tds totalArray"></td>
+                </tr>
+
+                <tr>
+                  <td>4</td>
+                  <td class="tds amortArray"></td>
+                  <td class="tds jurosArray"></td>
+                  <td class="tds totalArray"></td>
+                </tr>
+
+                <tr>
+                  <td>5</td>
+                  <td class="tds amortArray"></td>
+                  <td class="tds jurosArray"></td>
+                  <td class="tds totalArray"></td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
