@@ -7,7 +7,7 @@ Html/Css/Js
 
 
 Para ver a página online:
-https://eddyguarinello.github.io/Calculadora-Tech-Pan/
+https://eddyguarinello.github.io/Calculadora-Financiamento-Tech-Pan-IGTI/
 
 
 
